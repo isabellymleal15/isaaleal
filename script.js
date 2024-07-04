@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Como a globalização tem transformado o cenário econômico mundial?",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "A globalização é um fenômeno econômico que, apesar de desafios"
             }
         ]
     },
@@ -19,51 +19,36 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Quais são os efeitos do crescimento do comércio internacional?",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                afirmacao: "como desigualdades e vulnerabilidades, tem potencial"
             },
-            {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
-            }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "O comércio internacional é essencial para a globalização econômica, promovendo a especialização eficiente na produção, impulsionando o crescimento econômico através de economias de escala e facilitando a transferência de tecnologia e conhecimento entre países. Ele diversifica fontes de suprimento e demanda, cria empregos e reduz riscos econômicos. No entanto, também pode contribuir para desigualdades entre países e enfrenta desafios como impactos ambientais e a necessidade de regulação internacional para garantir benefícios justos e equitativos para todos os participantes.",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Como os acordos comerciais podem promover a especialização eficiente na produção, conforme mencionado no texto?",
+                afirmacao: "para impulsionar o crescimento, promover a cooperação internacional e melhorar o padrão de vida globalmente. "
             },
-            {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
-            }
+
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Os acordos comerciais promovem a especialização eficiente na produção ao eliminar barreiras comerciais entre países, permitindo que cada um se concentre naquilo em que é mais eficiente. Isso aumenta a produtividade global e beneficia todos os participantes do acordo.",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Como os acordos comerciais podem equilibrar os benefícios da especialização produtiva com as necessidades de desenvolvimento sustentável e inclusão econômica globalmente?",
+                afirmacao: "Seu impacto na economia mundial reflete uma interconexão complexa que molda tanto oportunidades quanto desafios para o desenvolvimento global."
             },
-            {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
-            }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Os acordos comerciais podem equilibrar os benefícios da especialização produtiva com as necessidades de desenvolvimento sustentável e inclusão econômica global ao promoverem práticas sustentáveis, facilitarem o acesso a mercados e tecnologias, e reduzirem disparidades econômicas entre países. Isso visa garantir que os benefícios do comércio sejam distribuídos de maneira justa e sustentável globalmente.",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "entendi",
+                afirmacao: ""
             },
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-            }
         ]
     },
 ];
@@ -101,7 +86,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
